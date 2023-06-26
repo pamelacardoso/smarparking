@@ -1,0 +1,23 @@
+/* dashboard */
+
+#breadcrumb .breadcrumb {
+  margin-top: 20px;
+  background-color: rgb(215, 218, 215);
+  color: #182b14;
+  }
+  
+  #breadcrumb .breadcrumb a {
+    color: #43A047;
+  }
+.custom-box {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+}
+
+.green-bg {
+  background-color: #7BB062 !important;
+}
+

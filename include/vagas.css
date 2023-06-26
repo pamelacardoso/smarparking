@@ -1,0 +1,293 @@
+body{
+  background-color: white; /* Old browsers */
+  /* background: linear-gradient(135deg, #f6f8f9 0%,#e5ebee 50%,#d7dee3 51%,#f5f7f9 100%); W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=1 ); IE6-9 fallback on horizontal gradient */
+  
+  }
+/* TESTETS */
+  
+.dropbtn-home {
+  background-color: #A50532;
+  color: white;
+  padding: 5px 10px;
+  font-size: 0.9em;
+  width: fit-content;
+  border-radius: 8px;
+  border: 1px solid #000000;
+  cursor: pointer;
+}
+
+.dropbtn {
+  border: none;
+  background-color: transparent;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 50px;
+  background-color: #f1f1f1;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.content-sino {
+  right: 110px;
+}
+
+.btn-home {
+  min-width: 120px;
+}
+
+.drop-home {
+  right: 130px;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #D9D9D9;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+  /* VOLTAR */
+  
+  .btnVoltar {
+    
+    background-color: white;
+    color: #7BB062;
+    padding: 6px 20px;
+    border-color: #7BB062;
+    height: 40px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .btnVoltar:hover {
+    background-color: #7BB062;
+    color: white;
+  }
+
+  .main {
+    border:5px solid #d7dee3;
+    padding:1rem;
+    background-color:#ffffff;
+    margin:1rem;
+    display:inline-block;
+    width: 400px;
+    height: 500px;
+  }
+  
+  .main > div {
+    padding:0.5rem 0;
+  }
+  
+  .main > div:nth-child(3) {
+    margin-top:100px;
+  }
+  
+  .main > div:nth-child(2n) {
+    border-top:3px solid rgba(211,211,211,0.6);
+    margin-top: 10px;
+    
+  }
+  
+  .main > div > div {
+    padding:1.5rem;
+    display:inline-block;
+    width:60px;
+    text-align:center;
+    height:60px;
+    vertical-align:top;
+    box-shadow:inline 0 0 3px 3px blue;
+  }
+  
+  div.car {
+    background-color:rgb(41, 158, 61);
+    color:#ffffff;
+    cursor: pointer;
+    display:block;
+    height:40px;
+    width:40px;
+  }
+  
+  .main > div > div + div {
+    margin-left:13px;
+    border-left:3px solid rgba(211,211,211,0.6);
+  }
+  
+  button.button{
+    padding:10px;
+    cursor:pointer;
+    border:1px solid rgb(85,105,255);
+    background-color:rgba(235,245,255,1);
+    color:rgb(85,105,255);
+    font-weight:700;
+    border-radius:4px;
+    margin-right:1rem;
+    font-family:Helvetica,arial
+  }
+  button.button:hover {
+    box-shadow:0 0 5px 2px rgba(85,105,255,0.3)
+  }
+  button.button[disabled] {
+    opacity:0.3;
+  }
+  .legend{
+    display:inline-block;
+    vertical-align:top;
+    margin-top:2rem;
+    background-color:#fff;
+    padding:1rem 2rem;
+    border:5px solid #d7dee3;
+  }
+
+  .painel-cadastros-cards {
+    display: flex;
+    padding: 20px 50px;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+    justify-content: space-evenly;
+
+  }
+
+  .campo_visualizar {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #D9D9D9;
+    background-color: #D9D9D9;
+  }
+
+  /* TELA INDEX */
+
+  @import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+width: 360px;
+padding: 8% 0 0;
+margin: auto;
+}
+.form-indexs {
+position: relative;
+z-index: 1;
+background: #FFFFFF;
+max-width: 360px;
+margin: 0 auto 100px;
+padding: 45px;
+text-align: center;
+box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form-index input {
+font-family: "Roboto", sans-serif;
+outline: 0;
+background: #f2f2f2;
+width: 100%;
+border: 0;
+margin: 0 0 15px;
+padding: 15px;
+box-sizing: border-box;
+font-size: 14px;
+}
+.form-index button {
+font-family: "Roboto", sans-serif;
+text-transform: uppercase;
+outline: 0;
+background: #4CAF50;
+width: 100%;
+border: 0;
+padding: 15px;
+color: #FFFFFF;
+font-size: 14px;
+-webkit-transition: all 0.3 ease;
+transition: all 0.3 ease;
+cursor: pointer;
+}
+
+.btnIndex{
+text-decoration: none;
+color:#FF0000;
+}
+
+.form-index button:hover,.form button:active,.form button:focus {
+background: #43A047;
+}
+.form-index .message {
+margin: 15px 0 0;
+color: #b3b3b3;
+font-size: 15px;
+}
+.form-index .message a {
+color: #4CAF50;
+text-decoration: none;
+}
+.form-index .register-form {
+display: none;
+}
+.container-index {
+position: relative;
+z-index: 1;
+max-width: 300px;
+margin: 0 auto;
+}
+.container-index:before, .container:after {
+content: "";
+display: block;
+clear: both;
+}
+.container-index .info {
+margin: 50px auto;
+text-align: center;
+}
+.container-index .info h1 {
+margin: 0 0 15px;
+padding: 0;
+font-size: 36px;
+font-weight: 300;
+color: #1a1a1a;
+}
+.container-index .info span {
+color: #4d4d4d;
+font-size: 12px;
+}
+.container-index .info span a {
+color: #000000;
+text-decoration: none;
+}
+.container-index .info span .fa {
+color: #EF3B3A;
+}
+
+
+
+
+.parking-lot {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.parking-row {
+  display: flex;
+  gap: 10px;
+}
+
+.parking-spot {
+  width: 40px;
+  height: 40px;
+  background-color: #e2e2e2;
+}
+
+.car {
+  background-color: #ff0000;
+}
